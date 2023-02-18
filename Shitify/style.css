@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
+
+.top-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 430px;
+}
+
+.back-btn {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+    width: fit-content;
+}
+
+.group {
+    height: 30px;
+    min-width: 30px;
+    position: relative;
+}
+
+.playing {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-1);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.menu {
+    height: 50px;
+    min-width: 50px;
+    position: relative;
+}
